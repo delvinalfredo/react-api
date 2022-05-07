@@ -1,0 +1,82 @@
+.card-container {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 10px;
+    color: rgb(98, 112, 163);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.content-container {
+    border: 1px solid rgb(98, 112, 163);
+    border-radius: 10px;
+    padding: 10px;
+    width: 380px;
+}
+
+h2 {
+    margin: 0px;
+    border-bottom: 1px solid rgb(98, 112, 163); 
+    margin-bottom: 10px;
+}
+
+h2 span {
+    margin: 0px;
+    background-color: rgb(98, 112, 163);
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+}
+
+p {
+    margin: 0px;
+}
+
+.card-button {
+    width: 80px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+form label {
+    text-align: left;
+}
+
+form label input, select, textarea {
+    width: 450px;
+    float: right;
+}
+
+form label input, select {
+    height: 30px;
+}
+
+form label textarea {
+    height: 45px;
+}
+
+.edit-item-button {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(15, 15, 87);
+    border: 1px solid rgb(15, 15, 87);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.edit-item-button:hover {
+    cursor: pointer;
+    background-color: rgb(15, 15, 87);
+    border: 1px solid rgb(15, 15, 87);
+    color: white;
+}

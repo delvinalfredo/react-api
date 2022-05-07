@@ -1,0 +1,44 @@
+.add-item-container form {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-item-container form label {
+    text-align: left;
+}
+
+.add-item-container form label input, select, textarea {
+    width: 450px;
+    float: right;
+}
+
+.add-item-container form label input, select {
+    height: 30px;
+}
+
+.add-item-container form label textarea {
+    height: 45px;
+}
+
+.add-item-button {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #00917C;
+    border: 1px solid #00917C;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.add-item-button:hover {
+    cursor: pointer;
+    background-color: #00917C;
+    border: 1px solid #00917C;
+    color: white;
+}
