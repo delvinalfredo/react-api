@@ -2,7 +2,7 @@
     background-color: rgb(255, 255, 255);
     width: 600px;
     border-radius: 10px;
-    color: rgb(98, 112, 163);
+    color: #00917C;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 
 .content-container {
-    border: 1px solid rgb(98, 112, 163);
+    border: 1px solid #00917C;
     border-radius: 10px;
     padding: 10px;
     width: 380px;
@@ -18,13 +18,13 @@
 
 h2 {
     margin: 0px;
-    border-bottom: 1px solid rgb(98, 112, 163); 
+    border-bottom: 1px solid #00917C; 
     margin-bottom: 10px;
 }
 
 h2 span {
     margin: 0px;
-    background-color: rgb(98, 112, 163);
+    background-color: #00917C;
     padding: 2px;
     color: white;
     font-size: 16px;
@@ -37,6 +37,11 @@ p {
 .card-button {
     width: 80px;
     height: 30px;
+    background-color: white;
+    border: 1px solid #00917C;
+    color: white;
+    background-color: #00917C;
+    border-radius: 6px;
 }
 
 form {
@@ -68,15 +73,15 @@ form label textarea {
     padding: 10px;
     font-weight: bolder;
     font-size: 16px;
-    color: rgb(15, 15, 87);
-    border: 1px solid rgb(15, 15, 87);
+    color: #00917C;
+    border: 1px solid #00917C;
     background-color: white;
     transition: 0.3s;
 }
 
 .edit-item-button:hover {
     cursor: pointer;
-    background-color: rgb(15, 15, 87);
-    border: 1px solid rgb(15, 15, 87);
+    background-color: #00917C;
+    border: 1px solid #00917C;
     color: white;
 }

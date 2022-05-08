@@ -91,12 +91,9 @@ const ItemCard = ({ item, handleDeleteItem, handleEditItem }) => {
                 :
                 <>
                     <div className='content-container'>
-                        <h2>{item.title} <span>{item.priority}</span></h2>
-                        <p>{item.quantity}</p>
-                        <br />
-                        <div className='note-container'>
-                            <code>notes: {item.price}</code>
-                        </div>
+                        <h2>HP : {item.title} </h2>
+                        <p>Quantity : {item.quantity}</p>
+                        <p>Price : {item.price}</p>
                     </div>
                     <button className='card-button' onClick={handleDelete}>Delete</button>
                     <button className='card-button' onClick={handleEdit}>Edit</button>
